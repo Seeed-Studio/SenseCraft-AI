@@ -8,7 +8,7 @@ SenseCraft AI is a development toolkit and platform designed for NVIDIA Jetson E
 
 ![Alt Text](./docs/video.gif)
 
-In addition to the various built-in AI models we offer out-of-the-box, you will also be able to bring-in your own AI model. In the future, you will have access to a large number of public models on SenseCraft AI platform and you will be able to download and deploy AI models for specific scenarios and create personalized AI solutions based on your needs. SenseCraft AI is your intelligent decision-making partner for vision ai, providing you with simple, flexible and efficient inferencing and solution building capabilities.
+In addition to the various built-in AI models we offer out-of-the-box, in the future, you will have access to a large number of public models on SenseCraft AI platform and you will be able to download and deploy AI models for specific scenarios and create personalized AI solutions based on your needs. SenseCraft AI is your intelligent decision-making partner for vision ai, providing you with simple, flexible and efficient inferencing and solution building capabilities.
 
 ## Features
 
@@ -30,9 +30,9 @@ SenseCraft AI consists of a client and server architecture. The client provides 
 - Internet connectivity via Ethernet/ WiFi
 - Display
 
-## **Sofeware Requirements**
+## **Software Requirements**
 
-- JetPack 5.1.1 (L4T 35.3.1)
+- JetPack 5.1.2 (L4T 35.4.1)
 - JetPack 5.1.1 (L4T 35.3.1)
 - JetPack 5.1 (L4T 35.2.1)
 
@@ -42,8 +42,8 @@ SenseCraft AI consists of a client and server architecture. The client provides 
 
 If you want to quickly experience this application, follow the instructions below.
 
-1.Connect Jetson to a display and power them on
-2.Type the following command on a terminal to run the application
+1. Connect Jetson to a display and power them on
+2. Type the following command on a terminal to run the application
 
 ```sh
 bash ./script/edge-ai-setup.sh
@@ -87,7 +87,7 @@ cat /etc/nv_tegra_release
 
 ## Learning Resources
 
-- [Deploy YOLOv8 on NVIDIA Jetson wusing TensorRT](https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson)
+- [Deploy YOLOv8 on NVIDIA Jetson using TensorRT](https://wiki.seeedstudio.com/YOLOv8-TRT-Jetson)
 - [Deploy YOLOv8 on NVIDIA Jetson using TensorRT and DeepStream SDK Support](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson)
 
 ## References
