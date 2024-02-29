@@ -296,7 +296,7 @@ function enable_jetson_clocks() {
 
     JETSON_CLOCKS_FILE="/tmp/jetson_clocks.service"
     sudo rm "$JETSON_CLOCKS_FILE" >/dev/null 2>&1 && sleep 1
-    sudo cp -f ./jetson_clocks.services "$JETSON_CLOCKS_FILE"
+    sudo cp -f ./jetson_clocks.service "$JETSON_CLOCKS_FILE"
     sudo install -m u=rw,g=r,o=r "$JETSON_CLOCKS_FILE" /etc/systemd/system/
     sudo systemctl start jetson_clocks
   fi
